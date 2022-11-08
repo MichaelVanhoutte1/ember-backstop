@@ -25,7 +25,7 @@ module.exports = {
     ci_report: 'backstop_data/ci_report',
   },
   report: [],
-  engine: 'puppet',
+  engine: 'puppeteer',
   engineOptions: {
     headless: true,
     args: ['--no-sandbox','--disable-setuid-sandbox'],
