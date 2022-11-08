@@ -27,7 +27,8 @@ module.exports = {
   report: [],
   engine: 'puppet',
   engineOptions: {
-    args: ['--no-sandbox'],
+    headless: true,
+    args: ['--no-sandbox','--disable-setuid-sandbox'],
   },
   asyncCaptureLimit: 10,
   asyncCompareLimit: 50,
