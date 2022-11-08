@@ -26,7 +26,7 @@
     "backstop-test": "npm run backstop-remote & ember test; npm run backstop-stop"
   },
   "dependencies": {
-    "backstopjs": "garris/BackstopJS#d4536fa376a32283b3eb7678cbe281ceed3b2983",
+    "backstopjs": "MichaelVanhoutte1/BackstopJS",
     "debug": "^4.1.1",
     "ember-cli-babel": "^7.26.10",
     "ember-cli-htmlbars": "^5.7.2"
